@@ -1,0 +1,11 @@
+{
+  "name": "tv-async",
+  "version": "1.0.0",
+  "description": "A wrapper for caolan/async module using ES6 async/await syntax with promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "theVelops <contato@thevelops.com> (http://www.thevelops.com)",
+  "license": "ISC"
+}
