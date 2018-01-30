@@ -5,7 +5,7 @@ export function parallel(methods) {
 
     for(let k in methods) {
         wrapper[k] = async cb => {
-            const reponse = await methods[key]();
+            const response = await methods[k]();
             cb(null, response);
         }
     }
